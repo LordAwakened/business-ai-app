@@ -55,9 +55,6 @@ ROOT_URLCONF = 'project_gaia.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-       TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [BASE_DIR / 'project_gaia' / 'core' / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -69,6 +66,7 @@ TEMPLATES = [
             ],
         },
     },
+]
 ]
         'APP_DIRS': True,
         'OPTIONS': {
