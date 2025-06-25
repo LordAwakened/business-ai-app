@@ -6,3 +6,8 @@ from django.shortcuts import render
 def index(request):
     return render(request, 'index.html'
 )
+
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("🎉 Welcome to Business AI App!")
