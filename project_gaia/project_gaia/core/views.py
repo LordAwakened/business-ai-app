@@ -14,3 +14,10 @@ def home(request):
 
 def home(request):
     return render(request, 'core/home.html')
+
+
+
+from django.shortcuts import render
+
+def home(request):
+    return render(request, 'core/home.html')  # 👈 Must match file path
