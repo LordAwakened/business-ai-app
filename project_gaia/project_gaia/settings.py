@@ -65,8 +65,9 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
             ],
         },
-    }
+    },
 ]
+
 
         'APP_DIRS': True,
         'OPTIONS': {
